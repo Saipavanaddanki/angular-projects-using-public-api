@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    margin: 100px;
+    
+    flex-wrap: wrap;
+   
+  
+    
+}
+div span{
+    padding:40px;
+    margin: 30px;
+    border:2px solid white;
+    font-size: larger;
+    color:aliceblue;
+}
+.main #d1{
+    text-align: center;
+    margin:50px;
+    
+    height:350px;
+    width: 250px;
+    background-color: rgba(10,10,10,0.4);
+    color:aqua;
+    border:5px solid gray;
+    box-shadow: 5px 5px 5px paleturquoise;
+}
+.main #img1{
+    
+    height: 200px;
+    width:200px;
+    border:2px double gray;
+    box-shadow: 2px 2px 2px blueviolet;
+
+}

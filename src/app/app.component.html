@@ -1,0 +1,25 @@
+<div class="nav">
+    <div>
+        <h1 style="color:white;font-weight: bold;border:10px solid rebeccapurple">PRODUCTS</h1>
+    </div>
+    <div style="margin-top: 40px;">
+    <span (click)="mens()">Men's clothin</span>
+    <span (click)="womens()">Women's clothing</span>
+    <span (click)="electronics()">Electronics</span>
+    <span (click)="jewelery()">Jewelery</span>
+    </div>
+    <div style="margin-top: 40px;">
+        <input type="search" placeholder="search" style="height: 40px;width: 300px;"/>
+    </div>
+</div>
+<app-products [pro]="products"></app-products>
+<!-- <div class="main">
+
+  <div *ngFor="let product of products" id="d1">
+            <h3>{{product.category}}</h3>
+            <img id="img1" src={{product.image}} alt={{product.title}}/>
+            <div>
+              <h3><img src="icons8-star-24.png" alt="Rating-" style="height: 20px;width: 20px;"/> {{product.rating.rate}}</h3>
+            </div>
+  </div>
+</div> -->

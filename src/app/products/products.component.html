@@ -1,0 +1,10 @@
+<div class="main">
+
+    <div *ngFor="let product of products" id="d1">
+              <h3>{{product.category}}</h3>
+              <img id="img1" src={{product.image}} alt={{product.title}}/>
+              <div>
+                <h3><img src="icons8-star-24.png" alt="Rating-" style="height: 20px;width: 20px;"/> {{product.rating.rate}}</h3>
+              </div>
+    </div>
+  </div>
